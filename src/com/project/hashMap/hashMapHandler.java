@@ -10,7 +10,7 @@ import java.util.Map.Entry;
 import com.project.database.Organizer;
 import com.project.event.*;
 import com.project.event.Type;
-import com.project.main.MainClass;
+import com.project.main.Main;
 
 public class hashMapHandler {
 	public static HashMap<Integer, Event> myMap = new HashMap<>();
@@ -156,7 +156,7 @@ public class hashMapHandler {
 		if (field == 0) {
 			myMap.clear();
 			ids.clear();
-			MainClass.main(null);
+			Main.main(null);
 		}
 		System.out.println("You chose to update the " + transform(field) + " of the event.");
 		return transform(field);

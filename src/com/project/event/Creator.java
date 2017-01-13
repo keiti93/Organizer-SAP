@@ -2,8 +2,6 @@ package com.project.event;
 
 import java.util.Scanner;
 
-import com.project.database.Validator;
-
 /**
  * This class takes care of the creation and validation of new events
  * 
